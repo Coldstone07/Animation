@@ -22,18 +22,20 @@ public class Mario extends Sprite {
 
 	public void jump() {
 		// JUMP!
-		moveToLocation(x, y +20);
+		moveToLocation(x, y -20);
 	}
 
 	public void act(ArrayList<Shape> obstacles) {
 		// FALL (and stop when a platform is hit)
-		
+		y++;
 		for(Shape shapes : obstacles) {
-			shapes.getBounds().get
-			if(shapes.getBounds().getY() == y) {
-				y
+			
+			if(shapes.getBounds().getY() != y) {
+				
 			}
+			
 		}
+		
 	}
 
 
