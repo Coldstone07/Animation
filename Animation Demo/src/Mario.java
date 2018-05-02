@@ -29,7 +29,10 @@ public class Mario extends Sprite {
 		// FALL (and stop when a platform is hit)
 		
 		for(Shape shapes : obstacles) {
-			if(shapes.getBounds().getX() )
+			shapes.getBounds().get
+			if(shapes.getBounds().getY() == y) {
+				y
+			}
 		}
 	}
 
